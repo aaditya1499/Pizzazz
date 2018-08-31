@@ -1,0 +1,74 @@
+body{
+	padding: 20px, 150px;
+	margin: 0;
+	background-color: black;
+	color: white;
+}
+
+#custom-nav{
+	background-color: rgba(0,0,0,0.8);
+	margin: 0;
+}
+
+#custom-nav *{
+	color: white;
+	font-size: 16px;
+	justify-content: center;
+}
+
+#custom-nav a:hover{
+	color: rgba(236,94,135,1);
+}
+
+#custom-nav .nav-brand a:hover{
+	color: steelblue;
+}
+
+#donate{
+	background-color: rgba(236, 94, 135, 1);
+	opacity: 1;
+	color: white;
+	border: none;
+	border-radius: 0;
+	font-size: 18px;
+}
+
+
+#custom-nav .active{
+	background-color: none;
+	color: rgba(236,94,135,1);
+}
+
+#custom-nav .btn:hover{
+	color: black;
+	font-size: 24px;
+}
+
+
+#jumbo{
+	background-color: #213e8c;
+	text-align: center;
+	margin: 0;
+}
+#jumbo h1{
+	font-size: 72px;
+}
+
+
+#about-txt{
+	background-color: white;
+	color: black;
+	padding: 20px 150px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+
+#women-heading div{
+	background-color: rgba(236,94,135,1);
+	text-align: center;
+	font-size: 24px;
+	padding: 20px, 150px;
+	height: 300px;
+	align-content: center;
+}

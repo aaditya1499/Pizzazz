@@ -1,0 +1,198 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
+
+h1, h2, h3{
+	font-weight: 700;
+}
+
+body{
+	background-color: black;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#custom-nav{
+	background-color: rgba(0,0,0,0.8);
+	position: sticky;
+	border: none;
+	margin: 0;
+}
+
+
+#custom-nav *{
+	color: white;
+	font-size: 16px;
+
+}
+
+#custom-nav a:hover{
+	color: rgba(236,94,135,1);
+}
+
+#custom-nav .nav-brand a:hover{
+	color: steelblue;
+}
+
+#donate{
+	background-color: rgba(236, 94, 135, 1);
+	opacity: 1;
+	color: white;
+	border: none;
+	border-radius: 0;
+	font-size: 18px;
+}
+
+
+#custom-nav .active{
+	background-color: none;
+	color: rgba(236,94,135,1);
+}
+
+#custom-nav .btn:hover{
+	color: black;
+	font-size: 24px;
+}
+
+header{
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 30vw 0 5vw;
+	position: relative;
+	transform-style: inherit;
+	width: 100vw;
+}
+
+
+header h1{
+	margin-top: 0px; 
+}
+
+header, header:before{
+	background:50% 50% / cover;
+}
+
+header::before{
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-image: url(page-cover.png);
+	background-size: cover;
+	transform-origin: center center 0;
+	transform: translateZ(-1px) scale(2);
+	z-index:  -1;
+	min-height: 100vh;
+}
+
+
+header *{
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: auto;
+	padding: 1em 0;
+}
+
+header h1{
+	font-size: 5em;
+}
+
+.row div{
+	padding: 50px;
+}
+.row1 div{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.mission{
+	background-color: #ec5e87;
+}
+.events{
+	background-color: #7dabf4;
+}
+
+.involved{
+	background-color: #213e8c;
+}
+
+.row2 div{
+	text-align: center;
+	background-color: white;
+	font-size: 3em;
+	color: black;
+
+}
+
+.btn-default{
+	background-color: rgba(236, 94, 135, 1);
+	color: white;
+	border: none;
+	border-radius: 0;
+	font-size: 30px;
+}
+
+
+.row3 div{
+	background-color: #213e8c;
+}
+
+.row4 div{
+	margin: 0;
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+.row4 img{
+	height: 300px;
+}
+
+
+.row5 div{
+	background-color: #213e8c;
+	color: white;
+	height: 400px;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.row5 div h2{
+	font-size: 48px;
+}
+
+#join-us-txt{
+	padding-top: 70px;
+}
+
+#join-us-img{
+	background-image: url(together.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.footer div{
+	text-align: left;
+	color: black;
+	background-color: white;
+}
+
+.row6{
+	background-color: #213e8c;
+	height: 50px;
+}
